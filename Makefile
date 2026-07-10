@@ -20,7 +20,7 @@ USERINCLUDE     += \
 LINUXINCLUDE    += \
                 -I$(srctree)/techpack/camera/include/uapi \
                 -I$(srctree)/techpack/camera/include
-obj-y += drivers/
+#obj-y += drivers/
 else
 $(info Target not found)
 endif
